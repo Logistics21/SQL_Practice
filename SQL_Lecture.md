@@ -37,14 +37,14 @@ Relational databases organize data in tables.
 Each row is a single entity in the table. Each column houses an
 additional piece of data for that entity.
 
-| id            | name          | age  |
+| id            | name          | dept_id  |
 | ------------- | ------------- | ---- |
-|1|Elle Faraday |22|
-|2|Jukay Hsu|24|
-|3|Will Kenney|34|
-|4|Bob Johnson|48|
-|5|Lucy Liu |33|
-|6|Mary J. Blige|58|
+|1|Elle Faraday |22|2|
+|2|Jukay Hsu|24|2|
+|3|Will Kenney|34|3|
+|4|Bob Johnson|48|1|
+|5|Lucy Liu |33|1|
+|6|Mary J. Blige|58|1|
 
 
 Every row in a database table will have a **primary key** which will
@@ -52,6 +52,13 @@ be its unique identifier in that table row. By convention, the primary
 key is simply `id`. Most relational database systems have an
 auto-increment feature to ensure that the primary keys are always
 unique.
+
+| id            | department_name |
+| ------------- | ------------- |
+|1|Teaching|
+|2|Management|
+|3|Operations|
+
 
 Breaking your domain down into database tables & columns is an
 important part of developing any application. Each table will house
