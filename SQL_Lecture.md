@@ -39,12 +39,12 @@ additional piece of data for that entity.
 
 | id            | name          | dept_id  |
 | ------------- | ------------- | ---- |
-|1|Elle Faraday |22|2|
-|2|Jukay Hsu|24|2|
-|3|Will Kenney|34|3|
-|4|Bob Johnson|48|1|
-|5|Lucy Liu |33|1|
-|6|Mary J. Blige|58|1|
+|1|Elle Faraday |2|
+|2|Jukay Hsu|2|
+|3|Will Kenney|3|
+|4|Bob Johnson|1|
+|5|Lucy Liu |1|
+|6|Mary J. Blige|1|
 
 
 Every row in a database table will have a **primary key** which will
